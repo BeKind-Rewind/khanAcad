@@ -73,7 +73,7 @@ body {
 
 /* Change the background color of dropdown links on hover */
 .navbar ul ul li a:hover {
-  background-color: #5487a7;
+  background-color: #a5c6ff;
 }
 
 .navbar div h1 {
@@ -85,13 +85,34 @@ body {
   height: 40px;
 }
 
-header {
+.hero img {
+  width: 100%;
+}
 
+.main {
+  margin: 4rem;
 }
 
 
-footer {
+.info {
+  padding-top: 2rem;
+}
 
+.info span{
+  font-size: 2rem;
+}
+
+.blue_buttons ul li {
+  list-style: none;
+}
+
+.blue_buttons button {
+  background-color: rgb(28, 102, 249);
+  border: solid white 1px;
+  border-radius: 5px;
+  color: white;
+  font-size: small;
+  padding: 1rem;
 }
 
 /******************************************
@@ -103,11 +124,18 @@ footer {
   display: flex;
 }
 
+.block {
+  display: block;
+}
+
 .space_around {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .align_center {
   align-items: end;
 }
 
+.length_short {
+  width: 20rem
+}
