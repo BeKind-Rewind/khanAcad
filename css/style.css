@@ -22,36 +22,27 @@
 /*******************************************/
 
 body {
-
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
-}
-
-footer {
-
-}
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
+/* Style the Nav menu */
 .navbar {
-  background-color: #333;
+  background-color: white;
   position: relative;
   z-index: 999;
+  border-bottom: solid rgb(201, 222, 240) .5px;
 }
 
 .navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background: black;
+  background: white;
 }
 
 .navbar li {
@@ -59,7 +50,7 @@ footer {
 }
 
 .navbar li a {
-  color: white;
+  color: rgb(28, 102, 249);
   display: block;
   padding: 10px 20px;
   text-decoration: none;
@@ -82,5 +73,41 @@ footer {
 
 /* Change the background color of dropdown links on hover */
 .navbar ul ul li a:hover {
-  background-color: #555;
+  background-color: #5487a7;
 }
+
+.navbar div h1 {
+  font-size:large;
+}
+
+.navbar div img {
+  margin-top: auto;
+  height: 40px;
+}
+
+header {
+
+}
+
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+.flex {
+  display: flex;
+}
+
+.space_around {
+  justify-content: space-between;
+}
+
+.align_center {
+  align-items: end;
+}
+
